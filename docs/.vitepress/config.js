@@ -22,13 +22,12 @@ export default {
                         {text: '组件之间的通信', link: '/vue/组件间的通信.md'},
                         {text: '全局状态的管理', link: '/vue/全局状态的管理.md'},
                         {text: '聊聊代码规范', link: '/vue/学会使用包管理工具.md'},
-                        {text: '高效开发', link: '/vue/高效开发.md'},
                     ]
                 },
                 {
                     text: '搞不懂的 JS',
                     items: [
-                        {text: '快速上手 TypeScript', link: '/js/typeScript.md'},
+                        {text: '快速上手 TypeScript', link: '/js/typescript.md'},
                         {text: '实用代码技巧', link: '/js/实用代码技巧.md'},
                         {text: '数组', link: '/js/数组.md'},
                         {text: '字符串', link: '/js/字符串.md'},
