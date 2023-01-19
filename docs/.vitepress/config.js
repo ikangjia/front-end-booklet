@@ -61,7 +61,9 @@ export default {
         algolia: {
             appId: 'U2DFM2E8HG',
             apiKey: '9c4b9c69e85b85c6bb6da9bccd382452',
-            indexName: 'ikangjia-booklet'
+            indexName: 'ikangjia-booklet',
+            placeholder: '请输入关键词',
+            buttonText: '搜索',
         }
     },
     markdown: {
