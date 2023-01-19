@@ -10,6 +10,7 @@ export default {
                     items: [
                         {text: '前言', link: '/'},
                         {text: '更新说明', link: '/changelog.md'},
+                        {text: 'vitepress', link: '/vitepress.md'},
                     ]
                 },
                 {
@@ -36,6 +37,7 @@ export default {
                 },
                 {
                     text: 'CSS 的一些奇技淫巧',
+                    collapsible: true,
                     items: [
                         {text: '选择器', link: '/css/选择器.md'},
                         {text: '格式化基础', link: '/css/格式化基础.md'},
@@ -55,7 +57,12 @@ export default {
             next: '下一章'
         },
         outline: [2, 5],
-        outlineTitle: '目录'
+        outlineTitle: '目录',
+        algolia: {
+            appId: 'U2DFM2E8HG',
+            apiKey: '9c4b9c69e85b85c6bb6da9bccd382452',
+            indexName: 'ikangjia-booklet'
+        }
     },
     markdown: {
         // theme: 'material-palenight',
