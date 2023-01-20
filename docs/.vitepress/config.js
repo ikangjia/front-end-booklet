@@ -1,15 +1,14 @@
 import sidebar from "./sidebar";
 
 export default {
-    title: '🐭 老康的技术小册',
-    description: '前端.',
-    appearance: true,
+    title: '🐭 前端小册',
+    description: '前端 Vue JavaScript CSS Node NPM',
+    lang: 'zh-CN',
     themeConfig: {
         nav: [
-            { text: '🌈 前端', link: '/front-end/' },
-            { text: '🔥 后端', link: '/back-end/' },
-            { text: '🌽 DevOps', link: '/dev-ops/' },
-            { text: '🌱 关于', link: '/guide/' }
+            { text: '关于此网站',
+              link: 'https://ikangjia.notion.site/VitePress-8c3fb3de59444c488d10d0f9457d4148'
+            }
         ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/ikangjia' },
@@ -38,7 +37,7 @@ export default {
         }
     },
     markdown: {
-        // theme: 'material-palenight',
+        theme: 'material-palenight',
         lineNumbers: false
     }
 }
