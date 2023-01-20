@@ -1,6 +1,6 @@
 ---
-title: Vitepress 使用说明
-editLink: false
+title: VitePress 使用说明
+editLink: true
 lastUpdated: false
 layout: doc
 
@@ -12,9 +12,9 @@ layout: doc
 
 ### 链接
 
-Vitepress 支持在 markdown 文档里使用内部链接和外部链接。
+VitePress 支持在 markdown 文档里使用内部链接和外部链接。
 
-#### 内部链接
+**内部链接**
 
 ```
 .
@@ -40,11 +40,13 @@ Vitepress 支持在 markdown 文档里使用内部链接和外部链接。
 [bar - four](../bar/four.html) <!-- or you can append .html -->
 ```
 
-#### 外部链接
+**外部链接**
 
 可直接使用 markdown 的链接语法即可：`[XX](https://xx.com)`
 
 ### Front Matter
+
+### 使用小图标
 
 ### 代码块样式
 
@@ -62,6 +64,8 @@ Vitepress 支持在 markdown 文档里使用内部链接和外部链接。
 
 ### 自定义容器
 
-### markdown 文件包含
+### 文件包含
 
 ### 使用静态资源
+
+## 集成 Algolia 搜索
