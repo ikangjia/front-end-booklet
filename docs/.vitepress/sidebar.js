@@ -11,12 +11,10 @@ const sidebar = [
         items: [
             {text: '重新认识前端', link: '/vue/重新认识前端.md'},
             {text: '了解前端工程化', link: '/vue/了解前端工程化.md'},
-            {text: '学会使用包管理工具', link: '/vue/学会使用包管理工具.md'},
             {text: '脚手架与工具链', link: '/vue/脚手架与工具链.md'},
-            {text: '论一个组件的自我修养', link: '/vue/组件的自我修养.md'},
+            {text: '单组件的自我修养', link: '/vue/单组件的自我修养.md'},
             {text: '组件之间的通信', link: '/vue/组件间的通信.md'},
-            {text: '全局状态的管理', link: '/vue/全局状态的管理.md'},
-            {text: '聊聊代码规范', link: '/vue/代码规范.md'},
+            {text: '全局状态管理', link: '/vue/全局状态的管理.md'},
         ]
     },
     {
